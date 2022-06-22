@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <div class="row">
+            <div class="col header__col">
+              <div class="header__img">
+                <img src="./img/logo (Traced).png" alt="img" />
+              </div>
+            </div>
+            <div class="col">
+              <nav class="header__menu menu">
+                <div class="menu__item">Inventory</div>
+                <div class="menu__item">Financing</div>
+                <div class="menu__item">Contacts</div>
+                <div class="menu__icon">
+                  <img src="./img/Vector.png" alt="img" />
+                </div>
+                <div class="menu__icon">
+                  <img src="./img/Vector (2).png" alt="img" />
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="car">
+          <div class="car__main-block main-block">
+            <div class="main-block__container container">
+              <div class="main-block__content-body">
+                <div class="main-block__title">The right way to get a car</div>
+                <div class="main-block__text text">
+                  <div class="text__item">
+                    Monza Motorsports is a boutique-style dealership
+                    specializing in premium imports. We offer an advanced online
+                    vehicle purchasing experience with integrated financing and
+                    contactless home delivery.
+                  </div>
+                  <div class="text__item">
+                    All of our cars come with a 5 day/500 kilometres no-hassle
+                    exchange option. Since 2012 Monza Motorsports has been the
+                    benchmark for innovation in the automotive industry.
+                  </div>
+                </div>
+                <div class="main-block__button">
+                  <a href="" class="car__button">Browse cars</a>
+                </div>
+              </div>
+            </div>
+            <div class="main-block__img _ibg">
+              <img src="./img/AdobeStock_192821860 1.png" alt="main img" />
+            </div>
+          </div>
+        </section>
+        <section class="offers">
+          <div class="container offers__container">
+            <div class="offers__title global__title">CURRENT OFFERS</div>
+            <div class="offers__body body">
+              <div class="body__drop-down-lists">
+                <select name="year" id="year" class="drop-down-lists__select">
+                  <option value="" disabled selected>Year</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                </select>
+                <select name="make" id="make" class="drop-down-lists__select">
+                  <option value="" disabled selected>Make</option>
+                  <option value="Honda">Honda</option>
+                  <option value="Kia">Kia</option>
+                  <option value="Reno">Reno</option>
+                  <option value="Toyota">Toyota</option>
+                  <option value="Volkswagen">Volkswagen</option>
+                </select>
+                <select name="model" id="model" class="drop-down-lists__select">
+                  <option value="" disabled selected>Model</option>
+                  <option value="Civic">Civic</option>
+                  <option value="Rio">Rio</option>
+                  <option value="Duster">Duster</option>
+                  <option value="Corola">Corola</option>
+                  <option value="T4">T4</option>
+                </select>
+                <select name="trim" id="trim" class="drop-down-lists__select">
+                  <option value="" disabled selected>Trim</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+                <select
+                  name="Mileage"
+                  id="Mileage"
+                  class="drop-down-lists__select"
+                >
+                  <option value="" disabled selected>Mileage</option>
+                  <option value="5k">5k</option>
+                  <option value="20k">20k</option>
+                  <option value="70k">70k</option>
+                  <option value="40k">40k</option>
+                  <option value="10k">10k</option>
+                </select>
+                <div class="drop-down-lists__buttons">
+                  <a href="" class="drop-down-lists__button">40 cars</a>
+                </div>
+              </div>
+              <div class="body__choices">
+                <div class="checkbox">
+                  <input
+                    id="vehicles"
+                    class="checkbox-custom"
+                    name="vehicles"
+                    type="checkbox"
+                  />
+                  <label for="vehicles" class="checkbox-custom-label"
+                    >Instantly available vehiclesн</label
+                  >
+                </div>
+                <div class="arrows">
+                  <p>Sort by</p>
+                  <div class="arrow">
+                    <div class="left">
+                      <img src="./img/Vector (5).png" alt="arrow" />
+                    </div>
+                    <div class="right">
+                      <img src="./img/Vector (6).png" alt="arrow" />
+                    </div>
+                  </div>
+                  <select name="year" id="year" class="choices__select">
+                    <option value="Publication date (descending)">
+                      Publication date (descending)
+                    </option>
+                    <option value="Price (ascending)">Price (ascending)</option>
+                    <option value="Price (descending)">
+                      Price (descending)
+                    </option>
+                    <option value="Mileage (ascending)">
+                      Mileage (ascending)
+                    </option>
+                    <option value="Mileage (descending)">
+                      Mileage (descending)
+                    </option>
+                    <option value="Performance (ascending)">
+                      Performance (ascending)
+                    </option>
+                    <option value="Performance (descending)">
+                      Performance (descending)
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <div class="body__cards">
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5.png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__true">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (1).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5.png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5.png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (3).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5.png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (3).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (3).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (3).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (3).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (3).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5.png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (1).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (2).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__false"><div>New</div></div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (1).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+                <div class="card">
+                  <div class="sold__false">SOLD</div>
+                  <div class="new__true">
+                    <div>New</div>
+                  </div>
+                  <div class="card__img">
+                    <img src="./img/Rectangle 5 (4).png" alt="car" />
+                  </div>
+                  <div class="card__title">
+                    <span>2019</span>
+                    <p>Volkswagen Tiguan</p>
+                  </div>
+                  <div class="card__description">
+                    19,855 km | Automatic | Diesel
+                  </div>
+                  <div class="card__price">$34,888</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="response">
+          <div class="container response__container">
+            <div class="response__text text">
+              <div class="text__title">Haven't found a suitable vehicle?</div>
+              <div class="text__description">
+                Sign up for our newsletter and be the first to know when we
+                publish new vehicle offers.
+              </div>
+            </div>
+            <div class="response__input-block">
+              <input
+                type="text"
+                class="response__input"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="response__button">
+              <a href="" class="car__button">Subscribe now</a>
+            </div>
+          </div>
+        </section>
+        <section class="question">
+          <div class="container question__container">
+            <div class="question__title global__title">popular questions</div>
+            <div class="question__body">
+              <ul>
+                <li>
+                  <div class="question__body-item body-item">
+                    <div class="body-item__main">
+                      <span>1. Scope </span
+                      ><span><img src="./img/Vector (3).png" alt="" /></span>
+                    </div>
+                    <div class="body-item__description">
+                      <p>
+                        3.1 The statutory warranty is completely excluded to the
+                        extent permitted by law.
+                      </p>
+                      <p>
+                        3.2 If the vehicle still has a current factory warranty,
+                        a sales representative (brand representative) of the
+                        manufacturer shall provide the services owed therein. If
+                        there is a factory warranty, the beginning of the
+                        warranty for new vehicles or vehicles with a current
+                        manufacturer's warranty is not the date of the first
+                        placing on the market, but the beginning of the warranty
+                        in the manufacturer's system or the contractually agreed
+                        beginning of the warranty, if any.
+                      </p>
+                      <p>
+                        3.3 If there is a special warranty insurance for the
+                        vehicle, this will take the place of the material
+                        warranty according to section 3.1 and replace it. In
+                        this case, the General Terms and Conditions of the
+                        respective warranty service provider apply.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="question__body-item body-item">
+                    <div class="body-item__main">
+                      <span>2. Vehicle characteristics </span
+                      ><span><img src="./img/Vector (3).png" alt="" /></span>
+                    </div>
+                    <div class="body-item__description">
+                      <p>
+                        3.1 The statutory warranty is completely excluded to the
+                        extent permitted by law.
+                      </p>
+                      <p>
+                        3.2 If the vehicle still has a current factory warranty,
+                        a sales representative (brand representative) of the
+                        manufacturer shall provide the services owed therein. If
+                        there is a factory warranty, the beginning of the
+                        warranty for new vehicles or vehicles with a current
+                        manufacturer's warranty is not the date of the first
+                        placing on the market, but the beginning of the warranty
+                        in the manufacturer's system or the contractually agreed
+                        beginning of the warranty, if any.
+                      </p>
+                      <p>
+                        3.3 If there is a special warranty insurance for the
+                        vehicle, this will take the place of the material
+                        warranty according to section 3.1 and replace it. In
+                        this case, the General Terms and Conditions of the
+                        respective warranty service provider apply.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="active">
+                  <div class="question__body-item body-item">
+                    <div class="body-item__main">
+                      <span>3. Warranty / guarantee </span
+                      ><span><img src="./img/Vector (4).png" alt="" /></span>
+                    </div>
+                    <div class="body-item__description">
+                      <p>
+                        3.1 The statutory warranty is completely excluded to the
+                        extent permitted by law.
+                      </p>
+                      <p>
+                        3.2 If the vehicle still has a current factory warranty,
+                        a sales representative (brand representative) of the
+                        manufacturer shall provide the services owed therein. If
+                        there is a factory warranty, the beginning of the
+                        warranty for new vehicles or vehicles with a current
+                        manufacturer's warranty is not the date of the first
+                        placing on the market, but the beginning of the warranty
+                        in the manufacturer's system or the contractually agreed
+                        beginning of the warranty, if any.
+                      </p>
+                      <p>
+                        3.3 If there is a special warranty insurance for the
+                        vehicle, this will take the place of the material
+                        warranty according to section 3.1 and replace it. In
+                        this case, the General Terms and Conditions of the
+                        respective warranty service provider apply.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="question__body-item body-item">
+                    <div class="body-item__main">
+                      <span>4. Trade-in vehicle </span
+                      ><span><img src="./img/Vector (3).png" alt="" /></span>
+                    </div>
+                    <div class="body-item__description">
+                      <p>
+                        3.1 The statutory warranty is completely excluded to the
+                        extent permitted by law.
+                      </p>
+                      <p>
+                        3.2 If the vehicle still has a current factory warranty,
+                        a sales representative (brand representative) of the
+                        manufacturer shall provide the services owed therein. If
+                        there is a factory warranty, the beginning of the
+                        warranty for new vehicles or vehicles with a current
+                        manufacturer's warranty is not the date of the first
+                        placing on the market, but the beginning of the warranty
+                        in the manufacturer's system or the contractually agreed
+                        beginning of the warranty, if any.
+                      </p>
+                      <p>
+                        3.3 If there is a special warranty insurance for the
+                        vehicle, this will take the place of the material
+                        warranty according to section 3.1 and replace it. In
+                        this case, the General Terms and Conditions of the
+                        respective warranty service provider apply.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="question__body-item body-item">
+                    <div class="body-item__main">
+                      <span>5. Home Delivery </span
+                      ><span><img src="./img/Vector (3).png" alt="" /></span>
+                    </div>
+                    <div class="body-item__description">
+                      <p>
+                        3.1 The statutory warranty is completely excluded to the
+                        extent permitted by law.
+                      </p>
+                      <p>
+                        3.2 If the vehicle still has a current factory warranty,
+                        a sales representative (brand representative) of the
+                        manufacturer shall provide the services owed therein. If
+                        there is a factory warranty, the beginning of the
+                        warranty for new vehicles or vehicles with a current
+                        manufacturer's warranty is not the date of the first
+                        placing on the market, but the beginning of the warranty
+                        in the manufacturer's system or the contractually agreed
+                        beginning of the warranty, if any.
+                      </p>
+                      <p>
+                        3.3 If there is a special warranty insurance for the
+                        vehicle, this will take the place of the material
+                        warranty according to section 3.1 and replace it. In
+                        this case, the General Terms and Conditions of the
+                        respective warranty service provider apply.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="question__body-item body-item">
+                    <div class="body-item__main">
+                      <span>6. Right of return </span
+                      ><span><img src="./img/Vector (3).png" alt="" /></span>
+                    </div>
+                    <div class="body-item__description">
+                      <p>
+                        3.1 The statutory warranty is completely excluded to the
+                        extent permitted by law.
+                      </p>
+                      <p>
+                        3.2 If the vehicle still has a current factory warranty,
+                        a sales representative (brand representative) of the
+                        manufacturer shall provide the services owed therein. If
+                        there is a factory warranty, the beginning of the
+                        warranty for new vehicles or vehicles with a current
+                        manufacturer's warranty is not the date of the first
+                        placing on the market, but the beginning of the warranty
+                        in the manufacturer's system or the contractually agreed
+                        beginning of the warranty, if any.
+                      </p>
+                      <p>
+                        3.3 If there is a special warranty insurance for the
+                        vehicle, this will take the place of the material
+                        warranty according to section 3.1 and replace it. In
+                        this case, the General Terms and Conditions of the
+                        respective warranty service provider apply.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="question__body-item body-item">
+                    <div class="body-item__main">
+                      <span>7. Written form </span
+                      ><span><img src="./img/Vector (3).png" alt="" /></span>
+                    </div>
+                    <div class="body-item__description">
+                      <p>
+                        3.1 The statutory warranty is completely excluded to the
+                        extent permitted by law.
+                      </p>
+                      <p>
+                        3.2 If the vehicle still has a current factory warranty,
+                        a sales representative (brand representative) of the
+                        manufacturer shall provide the services owed therein. If
+                        there is a factory warranty, the beginning of the
+                        warranty for new vehicles or vehicles with a current
+                        manufacturer's warranty is not the date of the first
+                        placing on the market, but the beginning of the warranty
+                        in the manufacturer's system or the contractually agreed
+                        beginning of the warranty, if any.
+                      </p>
+                      <p>
+                        3.3 If there is a special warranty insurance for the
+                        vehicle, this will take the place of the material
+                        warranty according to section 3.1 and replace it. In
+                        this case, the General Terms and Conditions of the
+                        respective warranty service provider apply.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="question__body-item body-item">
+                    <div class="body-item__main">
+                      <span>8. Applicable law and place of jurisdiction </span
+                      ><span><img src="./img/Vector (3).png" alt="" /></span>
+                    </div>
+                    <div class="body-item__description">
+                      <p>
+                        3.1 The statutory warranty is completely excluded to the
+                        extent permitted by law.
+                      </p>
+                      <p>
+                        3.2 If the vehicle still has a current factory warranty,
+                        a sales representative (brand representative) of the
+                        manufacturer shall provide the services owed therein. If
+                        there is a factory warranty, the beginning of the
+                        warranty for new vehicles or vehicles with a current
+                        manufacturer's warranty is not the date of the first
+                        placing on the market, but the beginning of the warranty
+                        in the manufacturer's system or the contractually agreed
+                        beginning of the warranty, if any.
+                      </p>
+                      <p>
+                        3.3 If there is a special warranty insurance for the
+                        vehicle, this will take the place of the material
+                        warranty according to section 3.1 and replace it. In
+                        this case, the General Terms and Conditions of the
+                        respective warranty service provider apply.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="row footer__row">
+            <div class="col footer__col">
+              <div class="footer__img">
+                <img src="./img/logo (Traced).png" alt="img" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="footer__text text">
+                <div class="text__item">Inventory</div>
+                <div class="text__item">Financing</div>
+                <div class="text__item">Contacts</div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="footer__icons icon">
+                <div class="icon__body">
+                  <img src="./img/Vector.png" alt="img" />
+                </div>
+                <div class="icon__body">
+                  <img src="./img/Vector (2).png" alt="img" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
